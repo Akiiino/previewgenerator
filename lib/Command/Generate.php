@@ -95,10 +95,10 @@ class Generate extends Command {
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output): int {
-		if ($this->encryptionManager->isEnabled()) {
-			$output->writeln('Encryption is enabled. Aborted.');
-			return 1;
-		}
+// 		if ($this->encryptionManager->isEnabled()) {
+// 			$output->writeln('Encryption is enabled. Aborted.');
+// 			return 1;
+// 		}
 
 		// Set timestamp output
 		$formatter = new TimestampFormatter($this->config, $output->getFormatter());
