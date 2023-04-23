@@ -92,10 +92,10 @@ class PreGenerate extends Command {
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output): int {
-		if ($this->encryptionManager->isEnabled()) {
-			$output->writeln('Encryption is enabled. Aborted.');
-			return 1;
-		}
+// 		if ($this->encryptionManager->isEnabled()) {
+// 			$output->writeln('Encryption is enabled. Aborted.');
+// 			return 1;
+// 		}
 
 		if ($this->checkAlreadyRunning()) {
 			$output->writeln('Command is already running.');
