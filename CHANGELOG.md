@@ -1,5 +1,18 @@
 # Changelog
 
+## 5.5.0 - 2024-03-30
+### Added
+- Support for Nextcloud 29
+
+## 5.4.0 - 2023-11-27
+### Added
+- Support for Nextcloud 28
+- Support for PHP 8.3
+
+### Removed
+- Support for Nextcloud 25 (EOL)
+- Support for PHP 7.4 (EOL)
+
 ## 5.3.0 - 2023-05-17
 ### Added
 - Add instructions for use with AIO to readme (thanks to @JL102)
